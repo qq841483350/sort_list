@@ -3,11 +3,19 @@
 __author__ = 'liyatao'
 #python lis列表排序，按字符串长度从小到大排序
 list=[u"我是1",u"我是22",u"我是333",u"我是4444",u"我是55555",u"我是666666",u"我是88888888",u"我是7777777",u"我是"]
-print '排序前：\n'
-for each in list:
-    print each
-list.sort(key=lambda x:len(x))
+# print '排序前：\n'
+# for each in list:
+#     print each
 
 print '\n排序后：\n'
+list.sort()#字符串长度从小到大排列
+# list.sort(key=lambda x:len(x))   #字符串长度从小到大排列
+
+# list.sort(reverse=True)#倒序排列（字符串长度从大到小排列）
+# list.sort(key=lambda x:len(x),reverse=True)  #倒序排列（字符串长度从大到小排列）
+
+
+
 for each in list:
     print each
+
