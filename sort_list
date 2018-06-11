@@ -1,0 +1,13 @@
+#!/user/bin/env python
+# coding:utf8
+__author__ = 'liyatao'
+#python lis列表排序，按字符串长度从大到小排序
+list=[u"我是1",u"我是22",u"我是333",u"我是4444",u"我是55555",u"我是666666",u"我是88888888",u"我是7777777",u"我是"]
+print '排序前：\n'
+for each in list:
+    print each
+list.sort(key=lambda x:len(x))
+
+print '\n排序后：\n'
+for each in list:
+    print each
